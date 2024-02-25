@@ -33,7 +33,7 @@ public class Trabajo {
 		double neto = (basico + bonificacion) * 0.9;
 
 		// Salida
-		System.out.print(" ** Resumen de Pago a Empleado ** ");
+		System.out.println(" ** Resumen de Pago a Empleado ** ");
 		System.out.println("El básico es: " + basico);
 		System.out.println("La bonificación es: " + bonificacion);
 		System.out.println("El neto es: " + neto);
